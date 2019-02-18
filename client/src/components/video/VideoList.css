@@ -1,0 +1,48 @@
+.video-list-container {
+  padding: 10px 0px 0px 12px;
+}
+
+.video-list-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.list-item {
+  cursor: pointer;
+  margin: 2em 0 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.video-list-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-desc-text {
+  padding: 0px 6px 0px 6px;
+}
+
+
+.refresh-btn {
+  align-items: center;
+  padding-left: 11px;
+}
+
+
+.btn-rotate {
+  animation: btn-rotate-keyframes 1s;
+ }
+ 
+ @keyframes btn-rotate-keyframes {
+  from {
+   transform: rotate(0deg);
+  }
+ 
+  to {
+   transform: rotate(180deg);
+  }
+ }
+ 

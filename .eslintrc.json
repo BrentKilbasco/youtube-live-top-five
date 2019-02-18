@@ -1,0 +1,68 @@
+{
+
+  "extends"                               : "airbnb",
+
+  "env": {
+
+    "jest": true
+
+  },
+
+  "rules": {
+    
+    "no-plusplus"                           : ["error", { "allowForLoopAfterthoughts": true }],
+    "import/prefer-default-export"          : "off",
+    "react/prefer-stateless-function"       : "off",
+    "class-methods-use-this"                : "off",
+    "react/destructuring-assignment"        : "off",
+    "react/prop-types"                      : "off",
+    "prefer-destructuring"                  : "off",
+
+
+    "padded-blocks"                         : "off",
+    "no-multiple-empty-lines"               : "off",        
+    "no-multi-spaces"                       : "off",
+    "space-before-blocks"                   : "off",
+    "key-spacing"                           : "off",
+    "no-mixed-spaces-and-tabs"              : "off",
+    "space-in-parens"                       : "off",
+    "prefer-template"                       : "off",
+    "vars-on-top"                           : "off",
+    "react/jsx-closing-bracket-location"    : "off",
+    "camelcase"                             : "off",
+    "no-else-return"                        : "off",
+    "max-len"                               : "off",
+    "no-lone-blocks"                        : "off",
+    "no-trailing-spaces"                    : "off",
+    "react/jsx-filename-extension"          : "off",
+    "spaced-comment"                        : "off",
+    "react/jsx-indent"                      : "off",
+    "no-tabs"                               : "off",
+    "function-paren-newline"                : "off",
+    "arrow-parens"                          : "off",    
+    "no-use-before-define"                  : "off",
+    "curly"                                 : "off",
+    "global-require"                        : "off",
+    "no-underscore-dangle"                  : "off",
+    "nonblock-statement-body-position"      : "off",
+
+
+    "react/no-unused-state"                 : "warn",
+    "no-console"                            : "warn",
+    "prefer-const"                          : "warn",
+    "no-unreachable"                        : "warn",
+    "react/self-closing-comp"               : "warn",
+    "arrow-body-style"                      : "warn",
+    "no-unused-vars"                        : "warn",
+    "object-curly-spacing"                  : "warn",
+    "no-empty"                              : "warn"
+
+  },
+
+  "globals" : {
+
+    "fetch"                                 : true
+
+  }
+
+}

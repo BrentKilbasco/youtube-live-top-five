@@ -1,0 +1,28 @@
+.description-detail {
+  padding: 14px 4px 8px 4px;
+
+}
+
+.channel-avatar {
+  min-width: 54px;
+  max-width: 54px;
+}
+
+.channel-title-segment { 
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+}
+
+.channel-name-text {
+  color: #595959;
+  display: inline-block;
+}
+
+.description-text {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  padding-left: 8px;
+}
+

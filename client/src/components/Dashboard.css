@@ -1,0 +1,13 @@
+.dashboard-body {
+  margin: 12px 12px 0px 10px; 
+  flex-direction: column;
+}
+
+.comment-list-section {
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+  width: 100%;
+}
+
+
