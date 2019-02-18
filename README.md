@@ -122,7 +122,7 @@ REACT_APP_YOUTUBE_KEY=your-api-key
 
 This is where we'll use the API key we got from step #3, replacing 'your-api-key' with whatever your key string is.
 
-It's important to remember not to surround the API key string in any quotes. Also, it might be good to note that when creating/storing environment variables this way, React requires us to prefix any variable name with 'REACT\_APP\_', otherwise they will be ignored. 
+It's important to remember not to wrap the API key string in any quotes. Also, it might be good to note that when creating/storing environment variables this way, React requires us to prefix any variable name with 'REACT\_APP\_', otherwise they will be ignored. 
 
 This step will be omitted in future iterations. 
 
