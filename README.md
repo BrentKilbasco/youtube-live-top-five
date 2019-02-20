@@ -30,7 +30,7 @@ The focus was a bit more on the technical side of things rather than styling and
 ## 🧠 Motivation
 Ok, so a quick little backstory on this little project. This was originally a React Native app done as a prototype demo a while back and I thought it’d be fun to redo it from scratch in React, because I like React and YouTube. So I made this little app 😁 This time around I decided to drop Firebase though and roll my own server-side auth flow. 
 
-Some features I plan on adding in the future include posting chat messages to the live chat, filtering the chat so users can have one-on-one conversations without the noise of other users, and the ability to filter the top five list a bit. Also to make use of the access and refresh tokens from Google that we are encrypting and storing in the DB.
+Some features I plan on adding in the future include posting chat messages to the live chat, filtering the chat so users can have one-on-one conversations without the noise of other users, and the ability to filter the top five list a bit. Also to make use of the access and refresh tokens from Google that we are encrypting and storing in the DB. And last but certainly not least, I plan on migrating this project to TypeScript.
 
 ## 📷 Screenshots
 
