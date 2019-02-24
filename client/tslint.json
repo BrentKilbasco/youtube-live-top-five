@@ -1,0 +1,45 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  
+  "defaultSeverity": "warning",
+
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js"
+    ]
+  },
+
+  "rules": {
+    "jsx-no-lambda": false,
+    "interface-over-type-literal": false,
+    "object-literal-sort-keys": false,
+    "no-console": {
+      "severity": "off",
+      "options": ["info"]
+    },
+    "prefer-const": {
+      "severity": "warning"
+    },
+    "curly": false,
+    "comment-format": false,
+    "ordered-imports": false
+  },
+
+  "jsRules": {
+    "jsx-no-lambda": false,
+    "interface-over-type-literal": false,
+    "object-literal-sort-keys": false,
+    "no-console": {
+      "severity": "off",
+      "options": ["debug", "info", "log", "time", "timeEnd", "trace"]
+    },
+    "prefer-const": {
+      "severity": "warning"
+    },
+    "curly": false,
+    "comment-format": false,
+    "ordered-imports": false
+  }
+}
